@@ -9,7 +9,7 @@
 import CocoaLumberjack
 import Foundation
 
-public enum Logger {
+public enum SdkLogger {
     /// Logs `logString()` if the level represented by `flag` is enabled.
     public static func log(
         _ logString: @autoclosure () -> String,
