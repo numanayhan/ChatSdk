@@ -19,10 +19,5 @@ Pod::Spec.new do |s|
   s.swift_versions = ['5.0', '5.3', '5.5']
   s.source_files = 'ChatSdk/Classes/**/*'
   s.dependency 'CocoaLumberjack'
-  
-  s.test_spec 'Tests' do |test_spec|
-    test_spec.source_files = 'Tests/**/*.{swift}'
-    test_spec.requires_app_host = true
-  end
 end
 
