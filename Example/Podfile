@@ -1,7 +1,7 @@
 
 install! 'cocoapods'
 use_frameworks!
-platform :ios, '10.0'
+platform :ios, '13.0'
 
 target 'ChatSdk_Example' do
   pod 'ChatSdk', git: 'https://github.com/numanayhan/ChatSdk.git', branch: 'main'
