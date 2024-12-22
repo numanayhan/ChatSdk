@@ -21,6 +21,6 @@ Pod::Spec.new do |s|
   s.source_files = 'ChatSdk/Classes/**/*.{h,m}'
   s.public_header_files = 'Classes/Classes/**/*.h'
   s.dependency 'CocoaLumberjack'
-  
+  s.dependency 'Reachability'
 end
 
