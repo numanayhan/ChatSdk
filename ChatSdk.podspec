@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ChatSdk'
-  s.version          = '1.0.2'
+  s.version          = '1.0.1'
   s.summary          = 'A robust library for chat functionality in iOS.'
   s.description      = 'ChatSdk is a powerful library for building messaging and chat features in iOS applications. It provides encryption, logging, and other utilities.'
   s.homepage         = 'https://github.com/numanayhan/ChatSdk'
