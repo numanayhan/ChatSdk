@@ -16,8 +16,8 @@ class Launch: UIViewController {
         super.viewDidLoad()
         print("Test")
         view.backgroundColor = .darkGray
-        SdkLogger.log("TT", flag: .debug, file: "T", function: "F", line: 0)
-        
+        //SdkLogger.log("TT", flag: .debug, file: "T", function: "F", line: 0)
+         
     }
 
 }

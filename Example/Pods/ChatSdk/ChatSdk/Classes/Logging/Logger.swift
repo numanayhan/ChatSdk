@@ -1,15 +1,12 @@
 //
-//  Logger.swift
-//  ChatSdk
+// Copyright 2024 Signal Messenger, LLC
+// SPDX-License-Identifier: AGPL-3.0-only
 //
-//  Created by Tk on 22.12.2024.
-//
- 
 
 import CocoaLumberjack
 import Foundation
 
-public enum SdkLogger {
+public enum Logger {
     /// Logs `logString()` if the level represented by `flag` is enabled.
     public static func log(
         _ logString: @autoclosure () -> String,
@@ -18,10 +15,12 @@ public enum SdkLogger {
         function: String,
         line: Int
     ) {
-        print("SdkLogger Start")
+        guard ShouldLogFlag(flag) else {
+            return
+        }
         DDLog.log(asynchronous: true, message: DDLogMessage(
             message: logString(),
-            level: .all,
+            level: ddLogLevel,
             flag: flag,
             context: 0,
             file: file,

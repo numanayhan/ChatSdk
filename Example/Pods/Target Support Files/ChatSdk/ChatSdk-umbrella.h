@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "OWSLogs.h"
 
 FOUNDATION_EXPORT double ChatSdkVersionNumber;
 FOUNDATION_EXPORT const unsigned char ChatSdkVersionString[];
