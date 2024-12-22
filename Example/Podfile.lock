@@ -1,21 +1,31 @@
 PODS:
-  - ChatSdk (1.0.0)
+  - ChatSdk (1.0.1):
+    - CocoaLumberjack
+  - CocoaLumberjack (3.7.4):
+    - CocoaLumberjack/Core (= 3.7.4)
+  - CocoaLumberjack/Core (3.7.4)
 
 DEPENDENCIES:
-  - ChatSdk (from `https://github.com/numanayhan/ChatSdk.git`)
+  - ChatSdk (from `https://github.com/numanayhan/ChatSdk.git`, branch `main`)
+
+SPEC REPOS:
+  trunk:
+    - CocoaLumberjack
 
 EXTERNAL SOURCES:
   ChatSdk:
+    :branch: main
     :git: https://github.com/numanayhan/ChatSdk.git
 
 CHECKOUT OPTIONS:
   ChatSdk:
-    :commit: 2cd10a9a95f11af0c2eb9775047b8bd4a9f210fd
+    :commit: c6aa3dc6d014b708b87ee382196ae87a57d90197
     :git: https://github.com/numanayhan/ChatSdk.git
 
 SPEC CHECKSUMS:
-  ChatSdk: 143427f92005dfbbfd081644e001d6a062bed075
+  ChatSdk: 1722f3d272795ed9b3212b289330e590d358efb5
+  CocoaLumberjack: 543c79c114dadc3b1aba95641d8738b06b05b646
 
-PODFILE CHECKSUM: 04c1c87760ec4eb63e6eeeacce794217f429d652
+PODFILE CHECKSUM: 686b42af1dfc562adb68d04167499d4fc2c8f0a7
 
 COCOAPODS: 1.16.2

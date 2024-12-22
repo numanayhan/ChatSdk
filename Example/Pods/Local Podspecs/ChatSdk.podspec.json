@@ -1,8 +1,8 @@
 {
   "name": "ChatSdk",
-  "version": "1.0.0",
-  "summary": "A lightweight SDK for building chat applications.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "1.0.1",
+  "summary": "A robust library for chat functionality in iOS.",
+  "description": "ChatSdk is a powerful library for building messaging and chat features in iOS applications. It provides encryption, logging, and other utilities.",
   "homepage": "https://github.com/numanayhan/ChatSdk",
   "license": {
     "type": "MIT",
@@ -13,23 +13,21 @@
   },
   "source": {
     "git": "https://github.com/numanayhan/ChatSdk.git",
-    "tag": "1.0.0"
+    "tag": "1.0.1"
   },
   "platforms": {
     "ios": "10.0"
   },
-  "pod_target_xcconfig": {
-    "OTHER_SWIFT_FLAGS": "-g"
-  },
-  "source_files": "ChatSdk/Classes/**/*",
   "swift_versions": [
     "5.0",
-    "5.1",
-    "5.2",
     "5.3",
-    "5.4",
-    "5.5",
-    "5.6"
+    "5.5"
   ],
-  "swift_version": "5.6"
+  "source_files": "ChatSdk/Classes/**/*",
+  "dependencies": {
+    "CocoaLumberjack": [
+
+    ]
+  },
+  "swift_version": "5.5"
 }

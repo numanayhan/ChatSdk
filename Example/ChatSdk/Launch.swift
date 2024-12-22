@@ -7,13 +7,16 @@
 //
 
 import UIKit
+import ChatSdk
+import CocoaLumberjack
 
-
-class ViewController: UIViewController {
+class Launch: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("Test")
         view.backgroundColor = .darkGray
+        
          
     }
 

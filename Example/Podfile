@@ -7,8 +7,6 @@ target 'ChatSdk_Example' do
 
   target 'ChatSdk_Tests' do
     inherit! :search_paths
-
-     
     
   end
 end
