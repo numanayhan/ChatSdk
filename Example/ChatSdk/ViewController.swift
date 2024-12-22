@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import ChatSdk
+
 
 class ViewController: UIViewController {
 
