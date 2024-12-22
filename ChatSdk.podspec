@@ -17,11 +17,13 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/numanayhan/ChatSdk.git', :tag => s.version.to_s }
   s.ios.deployment_target = '13.0'
   s.swift_versions = ['5.0', '5.3', '5.5']
-  s.source_files = 'ChatSdk/Classes/**/*'
-  s.source_files = 'ChatSdk/Classes/**/*.{h,m}'
-  s.public_header_files = 'Classes/Classes/**/*.h'
+
+  # Fix source_files and public_header_files
+  s.source_files = 'ChatSdk/Classes/**/*.{h,m,swift}'
+  s.public_header_files = 'ChatSdk/Classes/**/*.h'
+
+  # Dependencies
   s.dependency 'CocoaLumberjack'
   s.dependency 'Reachability'
   s.dependency 'SwiftProtobuf', '~> 1.28.2'
 end
-
