@@ -17,7 +17,8 @@ class Launch: UIViewController {
         print("Test")
         view.backgroundColor = .darkGray
         //SdkLogger.log("TT", flag: .debug, file: "T", function: "F", line: 0)
-         
+        let sanitized = StringSanitizer.sanitize("test")
+        print("sanitized",sanitized)
     }
 
 }
