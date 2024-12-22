@@ -22,5 +22,6 @@ Pod::Spec.new do |s|
   s.public_header_files = 'Classes/Classes/**/*.h'
   s.dependency 'CocoaLumberjack'
   s.dependency 'Reachability'
+  s.dependency 'SwiftProtobuf', '~> 1.28.2'
 end
 
