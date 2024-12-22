@@ -18,7 +18,7 @@ public enum SdkLogger {
         function: String,
         line: Int
     ) {
-        
+        print("SdkLogger Start")
         DDLog.log(asynchronous: true, message: DDLogMessage(
             message: logString(),
             level: .all,
