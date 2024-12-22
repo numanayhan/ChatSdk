@@ -6,184 +6,70 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		A85D1162F6EE99E1673009B86D5C5C6E /* ChatSdk */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 37A500A3CBB9891AE31B9C2171F40D82 /* Build configuration list for PBXAggregateTarget "ChatSdk" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = ChatSdk;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		07EA2786B3F81106A91E68224367BAA0 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F3363C0DD1AF0D24373AC5F7A04703 /* DDLog.m */; };
-		0C399219839C711A5346658B4CC5A42F /* CLIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D8B5153009DE026E72AECBD9D0A5A1 /* CLIColor.m */; };
-		1397E704CFC133C03FE4974F32932209 /* DDFileLogger+Buffering.m in Sources */ = {isa = PBXBuildFile; fileRef = 23BD83A12F404B4B6CD1F05A8FC3AEF6 /* DDFileLogger+Buffering.m */; };
-		1C0C5D871DFFDC0C0E7125A1F7A43A1F /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E3737745BF2C91AEFCB582ACA4B56D /* ReplaceMe.swift */; };
-		1DE59F54AC53D11C593F44FFAE8A2921 /* DDASLLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C177F848F4043B872535B5129E05E1 /* DDASLLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		252C0BEE0287A4FF2C78F0D4DB35A9D7 /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 39662E48CCC5CD4137FD9A736FAA0C03 /* DDFileLogger.m */; };
-		25CD861DF53E8A2C1A39E84C5787ADFB /* DDLog+LOGV.h in Headers */ = {isa = PBXBuildFile; fileRef = 651F2F771449386D087D6634B7E71549 /* DDLog+LOGV.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2EEEAF52F298D49C0C76907FF07529C8 /* CocoaLumberjack-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A82355695C815314119B2D5A9D48C9C5 /* CocoaLumberjack-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		30D445236F30C7BBBD0E355114554FA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
-		321E3048FF576E71B1F69783EC23AA75 /* DDContextFilterLogFormatter+Deprecated.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF5596CA06477AED49C93658F3CD555 /* DDContextFilterLogFormatter+Deprecated.m */; };
-		35504ACBB5357B873046ADCDBDD36CAB /* DDASLLogCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = 871CC5B48CDE55B01269A705112C0E2F /* DDASLLogCapture.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		39C0E8A457B0C75774C3D9DF53F68954 /* DDContextFilterLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = C4AADEE9A3EBCB2ECF6B3EB28CC6BDD1 /* DDContextFilterLogFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3B1F9D09EF2435166F1FB82924289219 /* Pods-ChatSdk_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F19ABFC382C3C3797A4B0D1DEDD170D /* Pods-ChatSdk_Tests-dummy.m */; };
-		3C07B7DEC09586F659368EBFEEB30B10 /* ChatSdk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B98C393F9AF15A6281E5BD73CF83BC /* ChatSdk-dummy.m */; };
-		3CE35B7C11B7ABE67D656D6B26DD54B4 /* ChatSdk-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7108DC34520F7F4C0990E095DB7E3B25 /* ChatSdk-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3D535EDE8B461554A425717B0B220F07 /* DDDispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = C7FABE504B3BF380E82A34766C7D9152 /* DDDispatchQueueLogFormatter.m */; };
-		56FE3D7A20A6C8985862A489BBB08A06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
-		5EC62A5A5CC4A00C92B604326F30CCC7 /* DDContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B7674CA9F098B41422B379BEAD8502 /* DDContextFilterLogFormatter.m */; };
-		63273BC5F048604F052EAA23FEBF7052 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = E399F541D0625F914667900007AEE3B1 /* DDAbstractDatabaseLogger.m */; };
-		6671729E8480B6C823612CC99301E602 /* Pods-ChatSdk_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE99768474001033C2E28D3951BF9F8 /* Pods-ChatSdk_Example-dummy.m */; };
-		6F9BCA945E8F96705F59DC120A9B755C /* CocoaLumberjack-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1986DA53EB62EEEF8B275B42DA650E0 /* CocoaLumberjack-dummy.m */; };
-		700656B2F379BB92F7D793176E8B074A /* DDASLLogCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 467DA212D8B074C0B6E64440B416C01C /* DDASLLogCapture.m */; };
-		74232B629DF74032ACCBAF19DB800738 /* DDMultiFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = FF33001E1EEB84CA9B39AE80F04BF7AA /* DDMultiFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		83806F9E9725747FB3F9F32CE98B906F /* DDTTYLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 644C0C6036D11DBA62C7D36038E25E7F /* DDTTYLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		86DEDCE6BEF56B8EBD3FE0C825DC1B04 /* DDFileLogger+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A4C58D6989631F68F3E2E1AC36177A6 /* DDFileLogger+Internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		8D867C98BA2EAD5A9607AB9A6EB81394 /* DDLoggerNames.m in Sources */ = {isa = PBXBuildFile; fileRef = 2771DFEDB2113764717A3764CF2A2AF3 /* DDLoggerNames.m */; };
-		998C16AF69027761460F5AFAC000DF30 /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = FE31881E04EAD84E06E0FF541A0AAB2C /* DDASLLogger.m */; };
-		A020CA1C99946D4E1150E4AF63D7D06C /* DDLogMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 94E44D3547B77A30057F38439AA7CD5B /* DDLogMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A5EF80F4AD68286E8CBEE58E81367980 /* CLIColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D7989B8DA6EDBBF67840B7D15EB44F0 /* CLIColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A93D0A58AF71C9EC4981D1F3EE93C8C4 /* DDLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 33333391B020170DE2DBC306CB659855 /* DDLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B2498BE04C583FE5AED93E8393297274 /* DDOSLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = B523CBD94C394BE5505805034A326838 /* DDOSLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B447F6FE952D0879B12FA1FC72976248 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6CAFE5D544DC5562D320A01393AFF6 /* DDTTYLogger.m */; };
-		B468D813388D049C37F01F62A0EA655E /* DDLegacyMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A9101C4604CCD2511A417FC99F3ECF0 /* DDLegacyMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BDA1FD6BFE69B179520404C8C6FD9860 /* CocoaLumberjack.h in Headers */ = {isa = PBXBuildFile; fileRef = 56C1421643989BF67C01924553605F88 /* CocoaLumberjack.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C281F30B5B69F61F6CD18F59720B191B /* DDAssertMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = FA263D6ACE33F86DD39706916DC188B9 /* DDAssertMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C553099D66593DB23EEAF7E24E45DEED /* DDMultiFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FF5A73F2E2BBC45587C08C55808055 /* DDMultiFormatter.m */; };
-		C6B66E318096B34907A1F264E7715FD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
-		CAED2252DCC1CE47477A31D0283F186E /* DDOSLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = D145D863C27615C77E5A304A54DA2290 /* DDOSLogger.m */; };
-		D3F30D4EED37BB2ADCD40680A0914342 /* DDContextFilterLogFormatter+Deprecated.h in Headers */ = {isa = PBXBuildFile; fileRef = 74D57D508FB500C94D89B8888D42BC87 /* DDContextFilterLogFormatter+Deprecated.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D505AD65B9733378CECA7BDD42A4CEAA /* DDLoggerNames.h in Headers */ = {isa = PBXBuildFile; fileRef = 37E546E8470047EA3C4893BF3A11FE2A /* DDLoggerNames.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D6CF47F32F0872E7F23CD11AEDD36EA6 /* DDFileLogger+Buffering.h in Headers */ = {isa = PBXBuildFile; fileRef = 928C053C89C4059B261EF78AA96A9225 /* DDFileLogger+Buffering.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2747BAD6FE68575FC103E88B832221BC /* Pods-ChatSdk_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F488D9FE84600A13207A29BFFAC0C10A /* Pods-ChatSdk_Tests-dummy.m */; };
+		6671729E8480B6C823612CC99301E602 /* Pods-ChatSdk_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 387083ABA563D4CD0D9CB66EC01EFD51 /* Pods-ChatSdk_Example-dummy.m */; };
+		A3F3837D3A51E2EA2E1D5F05FA060C2A /* Pods-ChatSdk_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A35624BE2A00FB2BD4CE9F50B247B6E9 /* Pods-ChatSdk_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8699EC9D3E5271C79F72F0C7A265271 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
 		E2E61ACE641FD4BEE22F6C05A5800419 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
-		E361B99C49AC800346734D590BD4AB58 /* DDFileLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 038E7F5F37848E68BA9CBA1C4086374B /* DDFileLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E7520F36C227DBEF4A8EE62B12490ADA /* DDDispatchQueueLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 718C6B63AC1A620D15D89174E9CF2000 /* DDDispatchQueueLogFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EA6CCDE83FE1E1D0542F4430AA9BA1BF /* Pods-ChatSdk_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B783F5FD02CF21F2C8201BB231C9FBB /* Pods-ChatSdk_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F2AE43FCE039CB4E272400A49A0E65DB /* DDAbstractDatabaseLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 89CA6FEB3463AEB5D30787285320A689 /* DDAbstractDatabaseLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FFA75926963B89BD891901EFCAF4E470 /* Pods-ChatSdk_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 480F8D606AFC3BB4C8F18F3E2CC39901 /* Pods-ChatSdk_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA6CCDE83FE1E1D0542F4430AA9BA1BF /* Pods-ChatSdk_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AE1212EE1132B569DD3E80AD042AD68 /* Pods-ChatSdk_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		250E88A0E22589E1A387B8466E47579E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A85D1162F6EE99E1673009B86D5C5C6E;
-			remoteInfo = ChatSdk;
-		};
-		49D074473DDF65C90EA1C059505A88F6 /* PBXContainerItemProxy */ = {
+		78D6A0567E7634AAFC9E047A8AF6D50D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D534A886F6A0578FD553005267A4ED12;
 			remoteInfo = "Pods-ChatSdk_Example";
 		};
-		A3B76D663BA7C2C0D50E44A08B453A7D /* PBXContainerItemProxy */ = {
+		953E50D384A620AD2824FEA481841AA8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E95654B155D25890BE8E26081FCA8265;
-			remoteInfo = CocoaLumberjack;
+			remoteGlobalIDString = A85D1162F6EE99E1673009B86D5C5C6E;
+			remoteInfo = ChatSdk;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01F3363C0DD1AF0D24373AC5F7A04703 /* DDLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDLog.m; path = Sources/CocoaLumberjack/DDLog.m; sourceTree = "<group>"; };
-		038E7F5F37848E68BA9CBA1C4086374B /* DDFileLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDFileLogger.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDFileLogger.h; sourceTree = "<group>"; };
-		06D898C377F8A08126A6293C0DCEA9DD /* ChatSdk.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ChatSdk.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		0A48D77DF9C0B299A75BB150A50A1829 /* Pods-ChatSdk_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChatSdk_Example-frameworks.sh"; sourceTree = "<group>"; };
-		0AE99768474001033C2E28D3951BF9F8 /* Pods-ChatSdk_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChatSdk_Example-dummy.m"; sourceTree = "<group>"; };
-		16B7674CA9F098B41422B379BEAD8502 /* DDContextFilterLogFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDContextFilterLogFormatter.m; path = Sources/CocoaLumberjack/Extensions/DDContextFilterLogFormatter.m; sourceTree = "<group>"; };
-		1A4C58D6989631F68F3E2E1AC36177A6 /* DDFileLogger+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DDFileLogger+Internal.h"; path = "Sources/CocoaLumberjack/DDFileLogger+Internal.h"; sourceTree = "<group>"; };
-		1E2D6BBD9D85097EB0669113A6F1BFE1 /* Pods-ChatSdk_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChatSdk_Example.release.xcconfig"; sourceTree = "<group>"; };
+		0D925E42FE687C88E3AA02DA085F27BD /* Pods-ChatSdk_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChatSdk_Example.release.xcconfig"; sourceTree = "<group>"; };
+		15D21770CE5039196AD38BC818EF5751 /* ChatSdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ChatSdk.release.xcconfig; sourceTree = "<group>"; };
 		21B923A3E87E19FF18152EF64EF283C7 /* Pods-ChatSdk_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ChatSdk_Example"; path = Pods_ChatSdk_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		23040C15979CACD3FE72D858B4AC47DC /* ChatSdk */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ChatSdk; path = ChatSdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		23BD83A12F404B4B6CD1F05A8FC3AEF6 /* DDFileLogger+Buffering.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "DDFileLogger+Buffering.m"; path = "Sources/CocoaLumberjack/Extensions/DDFileLogger+Buffering.m"; sourceTree = "<group>"; };
-		2771DFEDB2113764717A3764CF2A2AF3 /* DDLoggerNames.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDLoggerNames.m; path = Sources/CocoaLumberjack/DDLoggerNames.m; sourceTree = "<group>"; };
-		27C177F848F4043B872535B5129E05E1 /* DDASLLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDASLLogger.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDASLLogger.h; sourceTree = "<group>"; };
-		2B783F5FD02CF21F2C8201BB231C9FBB /* Pods-ChatSdk_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ChatSdk_Example-umbrella.h"; sourceTree = "<group>"; };
-		33333391B020170DE2DBC306CB659855 /* DDLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLog.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDLog.h; sourceTree = "<group>"; };
-		3767DE383DEC6771F9B0460939DE6EDB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		37E546E8470047EA3C4893BF3A11FE2A /* DDLoggerNames.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLoggerNames.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDLoggerNames.h; sourceTree = "<group>"; };
 		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		39662E48CCC5CD4137FD9A736FAA0C03 /* DDFileLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDFileLogger.m; path = Sources/CocoaLumberjack/DDFileLogger.m; sourceTree = "<group>"; };
-		3A9101C4604CCD2511A417FC99F3ECF0 /* DDLegacyMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLegacyMacros.h; path = "Sources/CocoaLumberjack/Supporting Files/DDLegacyMacros.h"; sourceTree = "<group>"; };
-		3F19ABFC382C3C3797A4B0D1DEDD170D /* Pods-ChatSdk_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChatSdk_Tests-dummy.m"; sourceTree = "<group>"; };
-		414CF2982134B2BDD841BB641FCF33BE /* Pods-ChatSdk_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChatSdk_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		45B6AAD23DA6DF4064131FF5C7297CBA /* CocoaLumberjack-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CocoaLumberjack-Info.plist"; sourceTree = "<group>"; };
-		467DA212D8B074C0B6E64440B416C01C /* DDASLLogCapture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDASLLogCapture.m; path = Sources/CocoaLumberjack/DDASLLogCapture.m; sourceTree = "<group>"; };
-		47FE9AA9006DEADE34EBF411A4A68473 /* Pods-ChatSdk_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChatSdk_Tests-Info.plist"; sourceTree = "<group>"; };
-		480F8D606AFC3BB4C8F18F3E2CC39901 /* Pods-ChatSdk_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ChatSdk_Tests-umbrella.h"; sourceTree = "<group>"; };
-		4DAC40787F11B147A88AD5BCCD15D9D9 /* CocoaLumberjack.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CocoaLumberjack.modulemap; sourceTree = "<group>"; };
-		5294E54EE49328F601A977D16787874D /* Pods-ChatSdk_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ChatSdk_Example.modulemap"; sourceTree = "<group>"; };
-		545CE550890B0FDDFB539091C273AEE1 /* Pods-ChatSdk_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ChatSdk_Tests.modulemap"; sourceTree = "<group>"; };
-		56C1421643989BF67C01924553605F88 /* CocoaLumberjack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CocoaLumberjack.h; path = "Sources/CocoaLumberjack/Supporting Files/CocoaLumberjack.h"; sourceTree = "<group>"; };
-		56D8B5153009DE026E72AECBD9D0A5A1 /* CLIColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CLIColor.m; path = Sources/CocoaLumberjack/CLI/CLIColor.m; sourceTree = "<group>"; };
-		58A43905F5865C7B5E25B8FD3FB8B86D /* Pods-ChatSdk_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChatSdk_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		5A3786742BE9E07A88DCE3F46FA8BB9B /* ChatSdk-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ChatSdk-Info.plist"; sourceTree = "<group>"; };
-		5D4029D61802FEB835E50998FE8A1BFD /* Pods-ChatSdk_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChatSdk_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5D7989B8DA6EDBBF67840B7D15EB44F0 /* CLIColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLIColor.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/CLIColor.h; sourceTree = "<group>"; };
-		5F485B2D70746B85C922E8EA732C689C /* Pods-ChatSdk_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChatSdk_Example-Info.plist"; sourceTree = "<group>"; };
-		644C0C6036D11DBA62C7D36038E25E7F /* DDTTYLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDTTYLogger.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDTTYLogger.h; sourceTree = "<group>"; };
-		651F2F771449386D087D6634B7E71549 /* DDLog+LOGV.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DDLog+LOGV.h"; path = "Sources/CocoaLumberjack/include/CocoaLumberjack/DDLog+LOGV.h"; sourceTree = "<group>"; };
-		6D2871CA8E236FCD0D90C28E59D96EAE /* Pods-ChatSdk_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChatSdk_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		70C3D08322A34B07DD7F25468611F3D4 /* Pods-ChatSdk_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChatSdk_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		7108DC34520F7F4C0990E095DB7E3B25 /* ChatSdk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChatSdk-umbrella.h"; sourceTree = "<group>"; };
-		718C6B63AC1A620D15D89174E9CF2000 /* DDDispatchQueueLogFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDDispatchQueueLogFormatter.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDDispatchQueueLogFormatter.h; sourceTree = "<group>"; };
-		74D57D508FB500C94D89B8888D42BC87 /* DDContextFilterLogFormatter+Deprecated.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DDContextFilterLogFormatter+Deprecated.h"; path = "Sources/CocoaLumberjack/include/CocoaLumberjack/DDContextFilterLogFormatter+Deprecated.h"; sourceTree = "<group>"; };
-		871CC5B48CDE55B01269A705112C0E2F /* DDASLLogCapture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDASLLogCapture.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDASLLogCapture.h; sourceTree = "<group>"; };
-		89CA6FEB3463AEB5D30787285320A689 /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDAbstractDatabaseLogger.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
-		9014E4DC7F7A242D82C0BD470F013EB6 /* ChatSdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ChatSdk.release.xcconfig; sourceTree = "<group>"; };
-		91B98C393F9AF15A6281E5BD73CF83BC /* ChatSdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ChatSdk-dummy.m"; sourceTree = "<group>"; };
-		928C053C89C4059B261EF78AA96A9225 /* DDFileLogger+Buffering.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DDFileLogger+Buffering.h"; path = "Sources/CocoaLumberjack/include/CocoaLumberjack/DDFileLogger+Buffering.h"; sourceTree = "<group>"; };
-		92AE7EBD772A83BCB257B49C66694A49 /* ChatSdk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChatSdk-prefix.pch"; sourceTree = "<group>"; };
-		92FF5A73F2E2BBC45587C08C55808055 /* DDMultiFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDMultiFormatter.m; path = Sources/CocoaLumberjack/Extensions/DDMultiFormatter.m; sourceTree = "<group>"; };
-		931686E152E9CA29509DDF62282F6C35 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		94E44D3547B77A30057F38439AA7CD5B /* DDLogMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLogMacros.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDLogMacros.h; sourceTree = "<group>"; };
-		986006C8B2F87E378845C1CC5F130480 /* CocoaLumberjack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaLumberjack.debug.xcconfig; sourceTree = "<group>"; };
-		99EA226B7387B33304592C9BF2CB102B /* Pods-ChatSdk_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChatSdk_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		387083ABA563D4CD0D9CB66EC01EFD51 /* Pods-ChatSdk_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChatSdk_Example-dummy.m"; sourceTree = "<group>"; };
+		468E2A57B2E4499E471D99E83262E98B /* Pods-ChatSdk_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChatSdk_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4F7ABD0F34F6CE4C2705CD2D57F5AF98 /* Pods-ChatSdk_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChatSdk_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		55ADD255426356E75583454981F89E02 /* Pods-ChatSdk_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChatSdk_Tests-Info.plist"; sourceTree = "<group>"; };
+		5AE1212EE1132B569DD3E80AD042AD68 /* Pods-ChatSdk_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ChatSdk_Example-umbrella.h"; sourceTree = "<group>"; };
+		62EB141A136A4C3481ECD34CCA7A32AD /* ChatSdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ChatSdk.debug.xcconfig; sourceTree = "<group>"; };
+		69B9EE73254570F548D9F05A590C74B3 /* Pods-ChatSdk_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChatSdk_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6D5CB897C3316D1AB9F6618543E4CD68 /* Pods-ChatSdk_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChatSdk_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		869B923DE9E3298FE6AC9C599AABF847 /* Pods-ChatSdk_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChatSdk_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9154299FCF929D4DEB88E7250D7A51F6 /* Pods-ChatSdk_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChatSdk_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A82355695C815314119B2D5A9D48C9C5 /* CocoaLumberjack-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaLumberjack-umbrella.h"; sourceTree = "<group>"; };
-		A85DD4C87C809F69BB27E826730B8677 /* Pods-ChatSdk_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChatSdk_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		AC6CAFE5D544DC5562D320A01393AFF6 /* DDTTYLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDTTYLogger.m; path = Sources/CocoaLumberjack/DDTTYLogger.m; sourceTree = "<group>"; };
-		AF70BF52A44281D0A82A2C167FCFC751 /* Pods-ChatSdk_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChatSdk_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B523CBD94C394BE5505805034A326838 /* DDOSLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDOSLogger.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDOSLogger.h; sourceTree = "<group>"; };
-		BA60561FDB1464E693366F6D1D592C00 /* CocoaLumberjack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaLumberjack.release.xcconfig; sourceTree = "<group>"; };
-		BCF5596CA06477AED49C93658F3CD555 /* DDContextFilterLogFormatter+Deprecated.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "DDContextFilterLogFormatter+Deprecated.m"; path = "Sources/CocoaLumberjack/Extensions/DDContextFilterLogFormatter+Deprecated.m"; sourceTree = "<group>"; };
-		C156BECEC7B002E4E65252051EA4EC25 /* ChatSdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ChatSdk.debug.xcconfig; sourceTree = "<group>"; };
-		C1986DA53EB62EEEF8B275B42DA650E0 /* CocoaLumberjack-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaLumberjack-dummy.m"; sourceTree = "<group>"; };
-		C1E3737745BF2C91AEFCB582ACA4B56D /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ChatSdk/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		C261436D14052AE3C35F240BCD155CAC /* CocoaLumberjack */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CocoaLumberjack; path = CocoaLumberjack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C33EB7EFBB30103E7BA25AC8C488BAAB /* ChatSdk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ChatSdk.modulemap; sourceTree = "<group>"; };
-		C4AADEE9A3EBCB2ECF6B3EB28CC6BDD1 /* DDContextFilterLogFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDContextFilterLogFormatter.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDContextFilterLogFormatter.h; sourceTree = "<group>"; };
+		A35624BE2A00FB2BD4CE9F50B247B6E9 /* Pods-ChatSdk_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ChatSdk_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B932F010282C105A177A04BBEDAC636C /* Pods-ChatSdk_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChatSdk_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BF17FD41BD36529D39597031D1554E3B /* Pods-ChatSdk_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChatSdk_Example-Info.plist"; sourceTree = "<group>"; };
 		C50FC5C79555DFB05C1EAEAD5F1B3915 /* Pods-ChatSdk_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ChatSdk_Tests"; path = Pods_ChatSdk_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C7FABE504B3BF380E82A34766C7D9152 /* DDDispatchQueueLogFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDDispatchQueueLogFormatter.m; path = Sources/CocoaLumberjack/Extensions/DDDispatchQueueLogFormatter.m; sourceTree = "<group>"; };
-		D145D863C27615C77E5A304A54DA2290 /* DDOSLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDOSLogger.m; path = Sources/CocoaLumberjack/DDOSLogger.m; sourceTree = "<group>"; };
-		E399F541D0625F914667900007AEE3B1 /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDAbstractDatabaseLogger.m; path = Sources/CocoaLumberjack/DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
-		EC571037D261EF31BF508FF902E187CB /* CocoaLumberjack-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaLumberjack-prefix.pch"; sourceTree = "<group>"; };
-		FA263D6ACE33F86DD39706916DC188B9 /* DDAssertMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDAssertMacros.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDAssertMacros.h; sourceTree = "<group>"; };
-		FE31881E04EAD84E06E0FF541A0AAB2C /* DDASLLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDASLLogger.m; path = Sources/CocoaLumberjack/DDASLLogger.m; sourceTree = "<group>"; };
-		FF33001E1EEB84CA9B39AE80F04BF7AA /* DDMultiFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDMultiFormatter.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDMultiFormatter.h; sourceTree = "<group>"; };
+		DD0A316A0C2811E057D48456C468ED31 /* Pods-ChatSdk_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ChatSdk_Example.modulemap"; sourceTree = "<group>"; };
+		F488D9FE84600A13207A29BFFAC0C10A /* Pods-ChatSdk_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChatSdk_Tests-dummy.m"; sourceTree = "<group>"; };
+		F58259DCB5D27363096DED687346A2E4 /* Pods-ChatSdk_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ChatSdk_Tests.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		110B132A9DE0F01CCACD0EDC5E8823F8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				56FE3D7A20A6C8985862A489BBB08A06 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		42B5FE4DF81701EEDE91460D45BBDF45 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				30D445236F30C7BBBD0E355114554FA4 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		55F7D936F19086FDE0C476E70478A998 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C6B66E318096B34907A1F264E7715FD3 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A0140F379B765D93B4D23EA48B7CC2E8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -192,173 +78,93 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D0DDD3DC829581E892564CD9B6EDB0ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8699EC9D3E5271C79F72F0C7A265271 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0FB07DFF6E4EDFBCFCAF5863F0FFAA82 /* Pod */ = {
+		075A8AE22932006247131F7D7E65F265 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				06D898C377F8A08126A6293C0DCEA9DD /* ChatSdk.podspec */,
-				931686E152E9CA29509DDF62282F6C35 /* LICENSE */,
-				3767DE383DEC6771F9B0460939DE6EDB /* README.md */,
+				C87D664BC7ACDF162391AE87549CB426 /* ChatSdk */,
 			);
-			name = Pod;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		10DFB12DE231B496A8B7B71BE0631158 /* Pods-ChatSdk_Example */ = {
+		1B466ED4DADEA1F76553D029B22F24CF /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5294E54EE49328F601A977D16787874D /* Pods-ChatSdk_Example.modulemap */,
-				99EA226B7387B33304592C9BF2CB102B /* Pods-ChatSdk_Example-acknowledgements.markdown */,
-				414CF2982134B2BDD841BB641FCF33BE /* Pods-ChatSdk_Example-acknowledgements.plist */,
-				0AE99768474001033C2E28D3951BF9F8 /* Pods-ChatSdk_Example-dummy.m */,
-				0A48D77DF9C0B299A75BB150A50A1829 /* Pods-ChatSdk_Example-frameworks.sh */,
-				5F485B2D70746B85C922E8EA732C689C /* Pods-ChatSdk_Example-Info.plist */,
-				2B783F5FD02CF21F2C8201BB231C9FBB /* Pods-ChatSdk_Example-umbrella.h */,
-				58A43905F5865C7B5E25B8FD3FB8B86D /* Pods-ChatSdk_Example.debug.xcconfig */,
-				1E2D6BBD9D85097EB0669113A6F1BFE1 /* Pods-ChatSdk_Example.release.xcconfig */,
+				62EB141A136A4C3481ECD34CCA7A32AD /* ChatSdk.debug.xcconfig */,
+				15D21770CE5039196AD38BC818EF5751 /* ChatSdk.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ChatSdk";
+			sourceTree = "<group>";
+		};
+		34E1D37FAB8D2192B2A0C7C71E16DC91 /* Pods-ChatSdk_Example */ = {
+			isa = PBXGroup;
+			children = (
+				DD0A316A0C2811E057D48456C468ED31 /* Pods-ChatSdk_Example.modulemap */,
+				B932F010282C105A177A04BBEDAC636C /* Pods-ChatSdk_Example-acknowledgements.markdown */,
+				6D5CB897C3316D1AB9F6618543E4CD68 /* Pods-ChatSdk_Example-acknowledgements.plist */,
+				387083ABA563D4CD0D9CB66EC01EFD51 /* Pods-ChatSdk_Example-dummy.m */,
+				BF17FD41BD36529D39597031D1554E3B /* Pods-ChatSdk_Example-Info.plist */,
+				5AE1212EE1132B569DD3E80AD042AD68 /* Pods-ChatSdk_Example-umbrella.h */,
+				4F7ABD0F34F6CE4C2705CD2D57F5AF98 /* Pods-ChatSdk_Example.debug.xcconfig */,
+				0D925E42FE687C88E3AA02DA085F27BD /* Pods-ChatSdk_Example.release.xcconfig */,
 			);
 			name = "Pods-ChatSdk_Example";
 			path = "Target Support Files/Pods-ChatSdk_Example";
 			sourceTree = "<group>";
 		};
-		26934B7F06D997EDFD7ED28417932AA3 /* CocoaLumberjack */ = {
+		5C90E2150A0FEA486060CDDF4F97A2AC /* Pods-ChatSdk_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				B16CE299BE1C8AD93F3DFEC7AD933130 /* Core */,
-				8949B715FCEA45BB3E70AF96E968DFCB /* Support Files */,
+				F58259DCB5D27363096DED687346A2E4 /* Pods-ChatSdk_Tests.modulemap */,
+				9154299FCF929D4DEB88E7250D7A51F6 /* Pods-ChatSdk_Tests-acknowledgements.markdown */,
+				468E2A57B2E4499E471D99E83262E98B /* Pods-ChatSdk_Tests-acknowledgements.plist */,
+				F488D9FE84600A13207A29BFFAC0C10A /* Pods-ChatSdk_Tests-dummy.m */,
+				55ADD255426356E75583454981F89E02 /* Pods-ChatSdk_Tests-Info.plist */,
+				A35624BE2A00FB2BD4CE9F50B247B6E9 /* Pods-ChatSdk_Tests-umbrella.h */,
+				869B923DE9E3298FE6AC9C599AABF847 /* Pods-ChatSdk_Tests.debug.xcconfig */,
+				69B9EE73254570F548D9F05A590C74B3 /* Pods-ChatSdk_Tests.release.xcconfig */,
 			);
-			name = CocoaLumberjack;
-			path = CocoaLumberjack;
+			name = "Pods-ChatSdk_Tests";
+			path = "Target Support Files/Pods-ChatSdk_Tests";
 			sourceTree = "<group>";
 		};
-		285695BE87869E7811972E6AED643808 /* Targets Support Files */ = {
+		6897D1F6E1C9D0D6CB0A9774191B28A3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				10DFB12DE231B496A8B7B71BE0631158 /* Pods-ChatSdk_Example */,
-				D39472A53CDD2CACAF3E8D0F21F84EE1 /* Pods-ChatSdk_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		2DA94A6761171F50D9D0E2CBC3D8BA24 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				26934B7F06D997EDFD7ED28417932AA3 /* CocoaLumberjack */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		479B63A18AE78788578B8CBF6231E5BB /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				BF3B92DE946D037F13177D91665F0055 /* ChatSdk */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		8949B715FCEA45BB3E70AF96E968DFCB /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				4DAC40787F11B147A88AD5BCCD15D9D9 /* CocoaLumberjack.modulemap */,
-				C1986DA53EB62EEEF8B275B42DA650E0 /* CocoaLumberjack-dummy.m */,
-				45B6AAD23DA6DF4064131FF5C7297CBA /* CocoaLumberjack-Info.plist */,
-				EC571037D261EF31BF508FF902E187CB /* CocoaLumberjack-prefix.pch */,
-				A82355695C815314119B2D5A9D48C9C5 /* CocoaLumberjack-umbrella.h */,
-				986006C8B2F87E378845C1CC5F130480 /* CocoaLumberjack.debug.xcconfig */,
-				BA60561FDB1464E693366F6D1D592C00 /* CocoaLumberjack.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/CocoaLumberjack";
-			sourceTree = "<group>";
-		};
-		A371D65C33AB536EA1048CD9E66CF107 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C33EB7EFBB30103E7BA25AC8C488BAAB /* ChatSdk.modulemap */,
-				91B98C393F9AF15A6281E5BD73CF83BC /* ChatSdk-dummy.m */,
-				5A3786742BE9E07A88DCE3F46FA8BB9B /* ChatSdk-Info.plist */,
-				92AE7EBD772A83BCB257B49C66694A49 /* ChatSdk-prefix.pch */,
-				7108DC34520F7F4C0990E095DB7E3B25 /* ChatSdk-umbrella.h */,
-				C156BECEC7B002E4E65252051EA4EC25 /* ChatSdk.debug.xcconfig */,
-				9014E4DC7F7A242D82C0BD470F013EB6 /* ChatSdk.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ChatSdk";
-			sourceTree = "<group>";
-		};
-		B16CE299BE1C8AD93F3DFEC7AD933130 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				5D7989B8DA6EDBBF67840B7D15EB44F0 /* CLIColor.h */,
-				56D8B5153009DE026E72AECBD9D0A5A1 /* CLIColor.m */,
-				56C1421643989BF67C01924553605F88 /* CocoaLumberjack.h */,
-				89CA6FEB3463AEB5D30787285320A689 /* DDAbstractDatabaseLogger.h */,
-				E399F541D0625F914667900007AEE3B1 /* DDAbstractDatabaseLogger.m */,
-				871CC5B48CDE55B01269A705112C0E2F /* DDASLLogCapture.h */,
-				467DA212D8B074C0B6E64440B416C01C /* DDASLLogCapture.m */,
-				27C177F848F4043B872535B5129E05E1 /* DDASLLogger.h */,
-				FE31881E04EAD84E06E0FF541A0AAB2C /* DDASLLogger.m */,
-				FA263D6ACE33F86DD39706916DC188B9 /* DDAssertMacros.h */,
-				C4AADEE9A3EBCB2ECF6B3EB28CC6BDD1 /* DDContextFilterLogFormatter.h */,
-				16B7674CA9F098B41422B379BEAD8502 /* DDContextFilterLogFormatter.m */,
-				74D57D508FB500C94D89B8888D42BC87 /* DDContextFilterLogFormatter+Deprecated.h */,
-				BCF5596CA06477AED49C93658F3CD555 /* DDContextFilterLogFormatter+Deprecated.m */,
-				718C6B63AC1A620D15D89174E9CF2000 /* DDDispatchQueueLogFormatter.h */,
-				C7FABE504B3BF380E82A34766C7D9152 /* DDDispatchQueueLogFormatter.m */,
-				038E7F5F37848E68BA9CBA1C4086374B /* DDFileLogger.h */,
-				39662E48CCC5CD4137FD9A736FAA0C03 /* DDFileLogger.m */,
-				928C053C89C4059B261EF78AA96A9225 /* DDFileLogger+Buffering.h */,
-				23BD83A12F404B4B6CD1F05A8FC3AEF6 /* DDFileLogger+Buffering.m */,
-				1A4C58D6989631F68F3E2E1AC36177A6 /* DDFileLogger+Internal.h */,
-				3A9101C4604CCD2511A417FC99F3ECF0 /* DDLegacyMacros.h */,
-				33333391B020170DE2DBC306CB659855 /* DDLog.h */,
-				01F3363C0DD1AF0D24373AC5F7A04703 /* DDLog.m */,
-				651F2F771449386D087D6634B7E71549 /* DDLog+LOGV.h */,
-				37E546E8470047EA3C4893BF3A11FE2A /* DDLoggerNames.h */,
-				2771DFEDB2113764717A3764CF2A2AF3 /* DDLoggerNames.m */,
-				94E44D3547B77A30057F38439AA7CD5B /* DDLogMacros.h */,
-				FF33001E1EEB84CA9B39AE80F04BF7AA /* DDMultiFormatter.h */,
-				92FF5A73F2E2BBC45587C08C55808055 /* DDMultiFormatter.m */,
-				B523CBD94C394BE5505805034A326838 /* DDOSLogger.h */,
-				D145D863C27615C77E5A304A54DA2290 /* DDOSLogger.m */,
-				644C0C6036D11DBA62C7D36038E25E7F /* DDTTYLogger.h */,
-				AC6CAFE5D544DC5562D320A01393AFF6 /* DDTTYLogger.m */,
-			);
-			name = Core;
-			sourceTree = "<group>";
-		};
-		BF3B92DE946D037F13177D91665F0055 /* ChatSdk */ = {
-			isa = PBXGroup;
-			children = (
-				C1E3737745BF2C91AEFCB582ACA4B56D /* ReplaceMe.swift */,
-				0FB07DFF6E4EDFBCFCAF5863F0FFAA82 /* Pod */,
-				A371D65C33AB536EA1048CD9E66CF107 /* Support Files */,
-			);
-			name = ChatSdk;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		CBC3E5537C3615E10ABB503C8F79FBE9 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				23040C15979CACD3FE72D858B4AC47DC /* ChatSdk */,
-				C261436D14052AE3C35F240BCD155CAC /* CocoaLumberjack */,
 				21B923A3E87E19FF18152EF64EF283C7 /* Pods-ChatSdk_Example */,
 				C50FC5C79555DFB05C1EAEAD5F1B3915 /* Pods-ChatSdk_Tests */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
+		C87D664BC7ACDF162391AE87549CB426 /* ChatSdk */ = {
+			isa = PBXGroup;
+			children = (
+				1B466ED4DADEA1F76553D029B22F24CF /* Support Files */,
+			);
+			name = ChatSdk;
+			path = ChatSdk;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				479B63A18AE78788578B8CBF6231E5BB /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				2DA94A6761171F50D9D0E2CBC3D8BA24 /* Pods */,
-				CBC3E5537C3615E10ABB503C8F79FBE9 /* Products */,
-				285695BE87869E7811972E6AED643808 /* Targets Support Files */,
+				075A8AE22932006247131F7D7E65F265 /* Pods */,
+				6897D1F6E1C9D0D6CB0A9774191B28A3 /* Products */,
+				F4D343C9F40DAED0D184EBDC3E97F9CF /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -370,29 +176,21 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D39472A53CDD2CACAF3E8D0F21F84EE1 /* Pods-ChatSdk_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				545CE550890B0FDDFB539091C273AEE1 /* Pods-ChatSdk_Tests.modulemap */,
-				5D4029D61802FEB835E50998FE8A1BFD /* Pods-ChatSdk_Tests-acknowledgements.markdown */,
-				AF70BF52A44281D0A82A2C167FCFC751 /* Pods-ChatSdk_Tests-acknowledgements.plist */,
-				3F19ABFC382C3C3797A4B0D1DEDD170D /* Pods-ChatSdk_Tests-dummy.m */,
-				70C3D08322A34B07DD7F25468611F3D4 /* Pods-ChatSdk_Tests-frameworks.sh */,
-				47FE9AA9006DEADE34EBF411A4A68473 /* Pods-ChatSdk_Tests-Info.plist */,
-				480F8D606AFC3BB4C8F18F3E2CC39901 /* Pods-ChatSdk_Tests-umbrella.h */,
-				6D2871CA8E236FCD0D90C28E59D96EAE /* Pods-ChatSdk_Tests.debug.xcconfig */,
-				A85DD4C87C809F69BB27E826730B8677 /* Pods-ChatSdk_Tests.release.xcconfig */,
-			);
-			name = "Pods-ChatSdk_Tests";
-			path = "Target Support Files/Pods-ChatSdk_Tests";
-			sourceTree = "<group>";
-		};
 		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		F4D343C9F40DAED0D184EBDC3E97F9CF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				34E1D37FAB8D2192B2A0C7C71E16DC91 /* Pods-ChatSdk_Example */,
+				5C90E2150A0FEA486060CDDF4F97A2AC /* Pods-ChatSdk_Tests */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -406,71 +204,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B6C50255D352D3EE0471B3DFDBE0B236 /* Headers */ = {
+		988E6BF54EC7A5787542D07906F3EF11 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5EF80F4AD68286E8CBEE58E81367980 /* CLIColor.h in Headers */,
-				BDA1FD6BFE69B179520404C8C6FD9860 /* CocoaLumberjack.h in Headers */,
-				2EEEAF52F298D49C0C76907FF07529C8 /* CocoaLumberjack-umbrella.h in Headers */,
-				F2AE43FCE039CB4E272400A49A0E65DB /* DDAbstractDatabaseLogger.h in Headers */,
-				35504ACBB5357B873046ADCDBDD36CAB /* DDASLLogCapture.h in Headers */,
-				1DE59F54AC53D11C593F44FFAE8A2921 /* DDASLLogger.h in Headers */,
-				C281F30B5B69F61F6CD18F59720B191B /* DDAssertMacros.h in Headers */,
-				39C0E8A457B0C75774C3D9DF53F68954 /* DDContextFilterLogFormatter.h in Headers */,
-				D3F30D4EED37BB2ADCD40680A0914342 /* DDContextFilterLogFormatter+Deprecated.h in Headers */,
-				E7520F36C227DBEF4A8EE62B12490ADA /* DDDispatchQueueLogFormatter.h in Headers */,
-				E361B99C49AC800346734D590BD4AB58 /* DDFileLogger.h in Headers */,
-				D6CF47F32F0872E7F23CD11AEDD36EA6 /* DDFileLogger+Buffering.h in Headers */,
-				86DEDCE6BEF56B8EBD3FE0C825DC1B04 /* DDFileLogger+Internal.h in Headers */,
-				B468D813388D049C37F01F62A0EA655E /* DDLegacyMacros.h in Headers */,
-				A93D0A58AF71C9EC4981D1F3EE93C8C4 /* DDLog.h in Headers */,
-				25CD861DF53E8A2C1A39E84C5787ADFB /* DDLog+LOGV.h in Headers */,
-				D505AD65B9733378CECA7BDD42A4CEAA /* DDLoggerNames.h in Headers */,
-				A020CA1C99946D4E1150E4AF63D7D06C /* DDLogMacros.h in Headers */,
-				74232B629DF74032ACCBAF19DB800738 /* DDMultiFormatter.h in Headers */,
-				B2498BE04C583FE5AED93E8393297274 /* DDOSLogger.h in Headers */,
-				83806F9E9725747FB3F9F32CE98B906F /* DDTTYLogger.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CF8ABC4EC1B6B36FBACBC01609E1F1E1 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3CE35B7C11B7ABE67D656D6B26DD54B4 /* ChatSdk-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D07F421DD69C16448320251C44445616 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FFA75926963B89BD891901EFCAF4E470 /* Pods-ChatSdk_Tests-umbrella.h in Headers */,
+				A3F3837D3A51E2EA2E1D5F05FA060C2A /* Pods-ChatSdk_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		A85D1162F6EE99E1673009B86D5C5C6E /* ChatSdk */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 55E344E822D98DEF0A0AD1914AB1CF29 /* Build configuration list for PBXNativeTarget "ChatSdk" */;
-			buildPhases = (
-				CF8ABC4EC1B6B36FBACBC01609E1F1E1 /* Headers */,
-				A345A822CB685E7C80374F7BD4B658FB /* Sources */,
-				55F7D936F19086FDE0C476E70478A998 /* Frameworks */,
-				7316E16EBFA070FA12CF14792C56A74A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = ChatSdk;
-			productName = ChatSdk;
-			productReference = 23040C15979CACD3FE72D858B4AC47DC /* ChatSdk */;
-			productType = "com.apple.product-type.framework";
-		};
 		D534A886F6A0578FD553005267A4ED12 /* Pods-ChatSdk_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 33BF5493D9B4B6FAB1ADCA71D762E9A0 /* Build configuration list for PBXNativeTarget "Pods-ChatSdk_Example" */;
@@ -483,7 +227,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				F793D318C38C62538EA5908F7EAE4D67 /* PBXTargetDependency */,
+				B529064CC16326048894C8138A05DCDB /* PBXTargetDependency */,
 			);
 			name = "Pods-ChatSdk_Example";
 			productName = Pods_ChatSdk_Example;
@@ -492,40 +236,21 @@
 		};
 		DE1CAA61530A3C3A41A3FCF587E7EFA6 /* Pods-ChatSdk_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B913C7C93753E9F9F560BD45C8213BB0 /* Build configuration list for PBXNativeTarget "Pods-ChatSdk_Tests" */;
+			buildConfigurationList = 732A612F5D7DD25245C0BFB8DEC77A3B /* Build configuration list for PBXNativeTarget "Pods-ChatSdk_Tests" */;
 			buildPhases = (
-				D07F421DD69C16448320251C44445616 /* Headers */,
-				9111A72B8CF83E20AA60484F12B0B0DF /* Sources */,
-				42B5FE4DF81701EEDE91460D45BBDF45 /* Frameworks */,
-				8212CA2407C62E0457A6978495CD1DB7 /* Resources */,
+				988E6BF54EC7A5787542D07906F3EF11 /* Headers */,
+				8B12D5A5E527B3F8D4CFAE4719097056 /* Sources */,
+				D0DDD3DC829581E892564CD9B6EDB0ED /* Frameworks */,
+				9E3BD876576447752653D8478EFCE3DB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				463235B05E46ECABEFF7126AA256E57A /* PBXTargetDependency */,
-				8D10647C7B65613D1DDE88564032DCE6 /* PBXTargetDependency */,
+				80532682C1D3BC3A3B9BEA299BD9941E /* PBXTargetDependency */,
 			);
 			name = "Pods-ChatSdk_Tests";
 			productName = Pods_ChatSdk_Tests;
 			productReference = C50FC5C79555DFB05C1EAEAD5F1B3915 /* Pods-ChatSdk_Tests */;
-			productType = "com.apple.product-type.framework";
-		};
-		E95654B155D25890BE8E26081FCA8265 /* CocoaLumberjack */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B100934843944604BE905E6E436720A7 /* Build configuration list for PBXNativeTarget "CocoaLumberjack" */;
-			buildPhases = (
-				B6C50255D352D3EE0471B3DFDBE0B236 /* Headers */,
-				BDD57CD0D26A98100D4441EFB9D24481 /* Sources */,
-				110B132A9DE0F01CCACD0EDC5E8823F8 /* Frameworks */,
-				837E27E319080DBF824D73B761847B83 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = CocoaLumberjack;
-			productName = CocoaLumberjack;
-			productReference = C261436D14052AE3C35F240BCD155CAC /* CocoaLumberjack */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -548,12 +273,11 @@
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			minimizedProjectReferenceProxies = 0;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = CBC3E5537C3615E10ABB503C8F79FBE9 /* Products */;
+			productRefGroup = 6897D1F6E1C9D0D6CB0A9774191B28A3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				A85D1162F6EE99E1673009B86D5C5C6E /* ChatSdk */,
-				E95654B155D25890BE8E26081FCA8265 /* CocoaLumberjack */,
 				D534A886F6A0578FD553005267A4ED12 /* Pods-ChatSdk_Example */,
 				DE1CAA61530A3C3A41A3FCF587E7EFA6 /* Pods-ChatSdk_Tests */,
 			);
@@ -568,21 +292,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7316E16EBFA070FA12CF14792C56A74A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8212CA2407C62E0457A6978495CD1DB7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		837E27E319080DBF824D73B761847B83 /* Resources */ = {
+		9E3BD876576447752653D8478EFCE3DB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -600,72 +310,51 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9111A72B8CF83E20AA60484F12B0B0DF /* Sources */ = {
+		8B12D5A5E527B3F8D4CFAE4719097056 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B1F9D09EF2435166F1FB82924289219 /* Pods-ChatSdk_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A345A822CB685E7C80374F7BD4B658FB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3C07B7DEC09586F659368EBFEEB30B10 /* ChatSdk-dummy.m in Sources */,
-				1C0C5D871DFFDC0C0E7125A1F7A43A1F /* ReplaceMe.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BDD57CD0D26A98100D4441EFB9D24481 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0C399219839C711A5346658B4CC5A42F /* CLIColor.m in Sources */,
-				6F9BCA945E8F96705F59DC120A9B755C /* CocoaLumberjack-dummy.m in Sources */,
-				63273BC5F048604F052EAA23FEBF7052 /* DDAbstractDatabaseLogger.m in Sources */,
-				700656B2F379BB92F7D793176E8B074A /* DDASLLogCapture.m in Sources */,
-				998C16AF69027761460F5AFAC000DF30 /* DDASLLogger.m in Sources */,
-				5EC62A5A5CC4A00C92B604326F30CCC7 /* DDContextFilterLogFormatter.m in Sources */,
-				321E3048FF576E71B1F69783EC23AA75 /* DDContextFilterLogFormatter+Deprecated.m in Sources */,
-				3D535EDE8B461554A425717B0B220F07 /* DDDispatchQueueLogFormatter.m in Sources */,
-				252C0BEE0287A4FF2C78F0D4DB35A9D7 /* DDFileLogger.m in Sources */,
-				1397E704CFC133C03FE4974F32932209 /* DDFileLogger+Buffering.m in Sources */,
-				07EA2786B3F81106A91E68224367BAA0 /* DDLog.m in Sources */,
-				8D867C98BA2EAD5A9607AB9A6EB81394 /* DDLoggerNames.m in Sources */,
-				C553099D66593DB23EEAF7E24E45DEED /* DDMultiFormatter.m in Sources */,
-				CAED2252DCC1CE47477A31D0283F186E /* DDOSLogger.m in Sources */,
-				B447F6FE952D0879B12FA1FC72976248 /* DDTTYLogger.m in Sources */,
+				2747BAD6FE68575FC103E88B832221BC /* Pods-ChatSdk_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		463235B05E46ECABEFF7126AA256E57A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CocoaLumberjack;
-			target = E95654B155D25890BE8E26081FCA8265 /* CocoaLumberjack */;
-			targetProxy = A3B76D663BA7C2C0D50E44A08B453A7D /* PBXContainerItemProxy */;
-		};
-		8D10647C7B65613D1DDE88564032DCE6 /* PBXTargetDependency */ = {
+		80532682C1D3BC3A3B9BEA299BD9941E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-ChatSdk_Example";
 			target = D534A886F6A0578FD553005267A4ED12 /* Pods-ChatSdk_Example */;
-			targetProxy = 49D074473DDF65C90EA1C059505A88F6 /* PBXContainerItemProxy */;
+			targetProxy = 78D6A0567E7634AAFC9E047A8AF6D50D /* PBXContainerItemProxy */;
 		};
-		F793D318C38C62538EA5908F7EAE4D67 /* PBXTargetDependency */ = {
+		B529064CC16326048894C8138A05DCDB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ChatSdk;
 			target = A85D1162F6EE99E1673009B86D5C5C6E /* ChatSdk */;
-			targetProxy = 250E88A0E22589E1A387B8466E47579E /* PBXContainerItemProxy */;
+			targetProxy = 953E50D384A620AD2824FEA481841AA8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0097ACD9B966715FFC2C78778273823D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15D21770CE5039196AD38BC818EF5751 /* ChatSdk.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		0480CE27863FDFC28573E869A0E9FF6C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E2D6BBD9D85097EB0669113A6F1BFE1 /* Pods-ChatSdk_Example.release.xcconfig */;
+			baseConfigurationReference = 0D925E42FE687C88E3AA02DA085F27BD /* Pods-ChatSdk_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -699,44 +388,24 @@
 			};
 			name = Release;
 		};
-		353E399F00BA8D29FD8D6B873A014C43 /* Debug */ = {
+		2F8605C5B9B5FC6A0948F0ED93BB9A8A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 58A43905F5865C7B5E25B8FD3FB8B86D /* Pods-ChatSdk_Example.debug.xcconfig */;
+			baseConfigurationReference = 62EB141A136A4C3481ECD34CCA7A32AD /* ChatSdk.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				INFOPLIST_FILE = "Target Support Files/Pods-ChatSdk_Example/Pods-ChatSdk_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ChatSdk_Example/Pods-ChatSdk_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		5215A7ABA181AC7F68B019886D5E5FD0 /* Release */ = {
+		321DA955F6CF921B77C32C290FBDDEB8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A85DD4C87C809F69BB27E826730B8677 /* Pods-ChatSdk_Tests.release.xcconfig */;
+			baseConfigurationReference = 69B9EE73254570F548D9F05A590C74B3 /* Pods-ChatSdk_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -770,10 +439,12 @@
 			};
 			name = Release;
 		};
-		6A641B00191121D756247C87F286E935 /* Release */ = {
+		353E399F00BA8D29FD8D6B873A014C43 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BA60561FDB1464E693366F6D1D592C00 /* CocoaLumberjack.release.xcconfig */;
+			baseConfigurationReference = 4F7ABD0F34F6CE4C2705CD2D57F5AF98 /* Pods-ChatSdk_Example.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -784,26 +455,24 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = NO;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/CocoaLumberjack/CocoaLumberjack-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/CocoaLumberjack/CocoaLumberjack-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChatSdk_Example/Pods-ChatSdk_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CocoaLumberjack/CocoaLumberjack.modulemap";
-				PRODUCT_MODULE_NAME = CocoaLumberjack;
-				PRODUCT_NAME = CocoaLumberjack;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChatSdk_Example/Pods-ChatSdk_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -867,10 +536,11 @@
 			};
 			name = Release;
 		};
-		952510FCABD8B23E68E573C5D67089E6 /* Release */ = {
+		87359C9173FE2E9814255F3AD64A0020 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9014E4DC7F7A242D82C0BD470F013EB6 /* ChatSdk.release.xcconfig */;
+			baseConfigurationReference = 869B923DE9E3298FE6AC9C599AABF847 /* Pods-ChatSdk_Tests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -882,26 +552,24 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = NO;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/ChatSdk/ChatSdk-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/ChatSdk/ChatSdk-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChatSdk_Tests/Pods-ChatSdk_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ChatSdk/ChatSdk.modulemap";
-				PRODUCT_MODULE_NAME = ChatSdk;
-				PRODUCT_NAME = ChatSdk;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChatSdk_Tests/Pods-ChatSdk_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -969,110 +637,6 @@
 			};
 			name = Debug;
 		};
-		DAFC3FF398AC30CC3BED9201C1F9F911 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 986006C8B2F87E378845C1CC5F130480 /* CocoaLumberjack.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/CocoaLumberjack/CocoaLumberjack-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/CocoaLumberjack/CocoaLumberjack-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CocoaLumberjack/CocoaLumberjack.modulemap";
-				PRODUCT_MODULE_NAME = CocoaLumberjack;
-				PRODUCT_NAME = CocoaLumberjack;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		EADFD39694BF9C370378B7198A91D60B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C156BECEC7B002E4E65252051EA4EC25 /* ChatSdk.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/ChatSdk/ChatSdk-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/ChatSdk/ChatSdk-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ChatSdk/ChatSdk.modulemap";
-				PRODUCT_MODULE_NAME = ChatSdk;
-				PRODUCT_NAME = ChatSdk;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		ED190422A48EFCFF24F57B5CA5A52049 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6D2871CA8E236FCD0D90C28E59D96EAE /* Pods-ChatSdk_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				INFOPLIST_FILE = "Target Support Files/Pods-ChatSdk_Tests/Pods-ChatSdk_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ChatSdk_Tests/Pods-ChatSdk_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1081,6 +645,15 @@
 			buildConfigurations = (
 				353E399F00BA8D29FD8D6B873A014C43 /* Debug */,
 				0480CE27863FDFC28573E869A0E9FF6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37A500A3CBB9891AE31B9C2171F40D82 /* Build configuration list for PBXAggregateTarget "ChatSdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F8605C5B9B5FC6A0948F0ED93BB9A8A /* Debug */,
+				0097ACD9B966715FFC2C78778273823D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1094,29 +667,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		55E344E822D98DEF0A0AD1914AB1CF29 /* Build configuration list for PBXNativeTarget "ChatSdk" */ = {
+		732A612F5D7DD25245C0BFB8DEC77A3B /* Build configuration list for PBXNativeTarget "Pods-ChatSdk_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EADFD39694BF9C370378B7198A91D60B /* Debug */,
-				952510FCABD8B23E68E573C5D67089E6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B100934843944604BE905E6E436720A7 /* Build configuration list for PBXNativeTarget "CocoaLumberjack" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DAFC3FF398AC30CC3BED9201C1F9F911 /* Debug */,
-				6A641B00191121D756247C87F286E935 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B913C7C93753E9F9F560BD45C8213BB0 /* Build configuration list for PBXNativeTarget "Pods-ChatSdk_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				ED190422A48EFCFF24F57B5CA5A52049 /* Debug */,
-				5215A7ABA181AC7F68B019886D5E5FD0 /* Release */,
+				87359C9173FE2E9814255F3AD64A0020 /* Debug */,
+				321DA955F6CF921B77C32C290FBDDEB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

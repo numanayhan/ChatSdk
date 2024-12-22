@@ -1,9 +1,9 @@
 {
   "name": "ChatSdk",
   "version": "1.0.0",
-  "summary": "A short description of ChatSdk.",
+  "summary": "A lightweight SDK for building chat applications.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Numan Ayhan/ChatSdk",
+  "homepage": "https://github.com/numanayhan/ChatSdk",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,24 @@
     "Numan Ayhan": "numanayhan@yandex.com"
   },
   "source": {
-    "git": "https://github.com/Numan Ayhan/ChatSdk.git",
+    "git": "https://github.com/numanayhan/ChatSdk.git",
     "tag": "1.0.0"
   },
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "ChatSdk/Classes/**/*"
+  "pod_target_xcconfig": {
+    "OTHER_SWIFT_FLAGS": "-g"
+  },
+  "source_files": "ChatSdk/Classes/**/*",
+  "swift_versions": [
+    "5.0",
+    "5.1",
+    "5.2",
+    "5.3",
+    "5.4",
+    "5.5",
+    "5.6"
+  ],
+  "swift_version": "5.6"
 }

@@ -3,12 +3,12 @@ use_frameworks!
 platform :ios, '10.0'
 
 target 'ChatSdk_Example' do
-  pod 'ChatSdk', :path => '../'
+  pod 'ChatSdk', git: 'https://github.com/numanayhan/ChatSdk.git'
 
   target 'ChatSdk_Tests' do
     inherit! :search_paths
 
-    pod 'CocoaLumberjack'
+    #pod 'CocoaLumberjack'
     
   end
 end
