@@ -1,0 +1,22 @@
+{
+  "name": "ChatSdk",
+  "version": "0.1.0",
+  "summary": "A short description of ChatSdk.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Numan Ayhan/ChatSdk",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Numan Ayhan": "numanayhan@yandex.com"
+  },
+  "source": {
+    "git": "https://github.com/Numan Ayhan/ChatSdk.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "ChatSdk/Classes/**/*"
+}
