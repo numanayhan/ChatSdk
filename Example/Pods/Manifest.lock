@@ -1,50 +1,25 @@
 PODS:
-  - ChatSdk (0.1.0)
-  - FBSnapshotTestCase (2.1.4):
-    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
-  - FBSnapshotTestCase/Core (2.1.4)
-  - FBSnapshotTestCase/SwiftSupport (2.1.4):
-    - FBSnapshotTestCase/Core
-  - iOSSnapshotTestCase (8.0.0):
-    - iOSSnapshotTestCase/SwiftSupport (= 8.0.0)
-  - iOSSnapshotTestCase/Core (8.0.0)
-  - iOSSnapshotTestCase/SwiftSupport (8.0.0):
-    - iOSSnapshotTestCase/Core
-  - Nimble (10.0.0)
-  - Nimble-Snapshots (9.4.0):
-    - Nimble-Snapshots/Core (= 9.4.0)
-  - Nimble-Snapshots/Core (9.4.0):
-    - iOSSnapshotTestCase (~> 8.0)
-    - Nimble
-  - Quick (2.2.1)
+  - ChatSdk (1.0.0)
+  - CocoaLumberjack (3.7.4):
+    - CocoaLumberjack/Core (= 3.7.4)
+  - CocoaLumberjack/Core (3.7.4)
 
 DEPENDENCIES:
   - ChatSdk (from `../`)
-  - FBSnapshotTestCase (~> 2.1.4)
-  - Nimble (~> 10.0.0)
-  - Nimble-Snapshots (~> 9.4.0)
-  - Quick (~> 2.2.0)
+  - CocoaLumberjack
 
 SPEC REPOS:
   trunk:
-    - FBSnapshotTestCase
-    - iOSSnapshotTestCase
-    - Nimble
-    - Nimble-Snapshots
-    - Quick
+    - CocoaLumberjack
 
 EXTERNAL SOURCES:
   ChatSdk:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ChatSdk: 31393950ea241826a395a3873b01ea0ed4c59267
-  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  iOSSnapshotTestCase: a670511f9ee3829c2b9c23e6e68f315fd7b6790f
-  Nimble: 5316ef81a170ce87baf72dd961f22f89a602ff84
-  Nimble-Snapshots: ef281b908c604f78c8313587e25ea92c8ab513d7
-  Quick: f5754d69b7013f5864c29aab9ae6f0c79c5bc200
+  ChatSdk: 8df17c673d0032167c8f7d00949d735342b2672e
+  CocoaLumberjack: 543c79c114dadc3b1aba95641d8738b06b05b646
 
-PODFILE CHECKSUM: 53e6fcecd11dee2e9f682e314f39967330f7a65d
+PODFILE CHECKSUM: 29260fddbff222cf4e7b8383183d710fe172a98d
 
 COCOAPODS: 1.16.2

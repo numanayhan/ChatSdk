@@ -8,7 +8,7 @@ target 'ChatSdk_Example' do
   target 'ChatSdk_Tests' do
     inherit! :search_paths
 
-    pod 'Quick', '~> 2.2.0'
+    pod 'CocoaLumberjack'
     
   end
 end
