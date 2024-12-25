@@ -9,6 +9,7 @@
 import UIKit
 import ChatSdk
 import CocoaLumberjack
+import SwiftProtobuf
 
 class Launch: UIViewController {
 
@@ -16,7 +17,7 @@ class Launch: UIViewController {
         super.viewDidLoad()
         print("Test")
         view.backgroundColor = .darkGray
-        //SdkLogger.log("TT", flag: .debug, file: "T", function: "F", line: 0)
+        
         let sanitized = StringSanitizer.sanitize("test")
         print("sanitized",sanitized)
     }

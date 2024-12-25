@@ -9,7 +9,7 @@
 import UIKit
 import CocoaLumberjack
 import ChatSdk
-import SwiftProtobuf
+// import SwiftProtobuf
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

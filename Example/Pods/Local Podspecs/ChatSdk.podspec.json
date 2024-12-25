@@ -1,6 +1,6 @@
 {
   "name": "ChatSdk",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "summary": "A robust library for chat functionality in iOS.",
   "description": "ChatSdk is a powerful library for building messaging and chat features in iOS applications. It provides encryption, logging, and other utilities.",
   "homepage": "https://github.com/numanayhan/ChatSdk",
@@ -13,20 +13,27 @@
   },
   "source": {
     "git": "https://github.com/numanayhan/ChatSdk.git",
-    "tag": "1.0.1"
+    "tag": "1.0.2"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "13.0"
   },
   "swift_versions": [
     "5.0",
     "5.3",
     "5.5"
   ],
-  "source_files": "ChatSdk/Classes/**/*",
+  "source_files": "ChatSdk/Classes/**/*.{h,m,swift}",
+  "public_header_files": "ChatSdk/Classes/**/*.h",
   "dependencies": {
     "CocoaLumberjack": [
 
+    ],
+    "Reachability": [
+
+    ],
+    "SwiftProtobuf": [
+      "~> 1.28.2"
     ]
   },
   "swift_version": "5.5"

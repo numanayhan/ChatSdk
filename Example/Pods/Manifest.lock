@@ -1,9 +1,13 @@
 PODS:
-  - ChatSdk (1.0.1):
+  - ChatSdk (1.0.2):
     - CocoaLumberjack
-  - CocoaLumberjack (3.7.4):
-    - CocoaLumberjack/Core (= 3.7.4)
-  - CocoaLumberjack/Core (3.7.4)
+    - Reachability
+    - SwiftProtobuf (~> 1.28.2)
+  - CocoaLumberjack (3.8.5):
+    - CocoaLumberjack/Core (= 3.8.5)
+  - CocoaLumberjack/Core (3.8.5)
+  - Reachability (3.7.6)
+  - SwiftProtobuf (1.28.2)
 
 DEPENDENCIES:
   - ChatSdk (from `https://github.com/numanayhan/ChatSdk.git`, branch `main`)
@@ -11,6 +15,8 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - CocoaLumberjack
+    - Reachability
+    - SwiftProtobuf
 
 EXTERNAL SOURCES:
   ChatSdk:
@@ -19,13 +25,15 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   ChatSdk:
-    :commit: c6aa3dc6d014b708b87ee382196ae87a57d90197
+    :commit: 406b28042bc7a2d0c7fed1889617a10cbbb61d7f
     :git: https://github.com/numanayhan/ChatSdk.git
 
 SPEC CHECKSUMS:
-  ChatSdk: 1722f3d272795ed9b3212b289330e590d358efb5
-  CocoaLumberjack: 543c79c114dadc3b1aba95641d8738b06b05b646
+  ChatSdk: 1be6173a7b47f32049af0679489cc5d16eceadbb
+  CocoaLumberjack: 6a459bc897d6d80bd1b8c78482ec7ad05dffc3f0
+  Reachability: fd0ecd23705e2599e4cceeb943222ae02296cbc6
+  SwiftProtobuf: 4dbaffec76a39a8dc5da23b40af1a5dc01a4c02d
 
-PODFILE CHECKSUM: 31bc2c81ae0bea4263b38b2c007eb0fe1e93e864
+PODFILE CHECKSUM: e2f3379de807daed5a193f81bd471226a593889d
 
 COCOAPODS: 1.16.2

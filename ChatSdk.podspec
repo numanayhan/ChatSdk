@@ -26,4 +26,5 @@ Pod::Spec.new do |s|
   s.dependency 'CocoaLumberjack'
   s.dependency 'Reachability'
   s.dependency 'SwiftProtobuf', '~> 1.28.2'
+  s.dependency 'LibSignalClient' 
 end
