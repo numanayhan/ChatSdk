@@ -3,6 +3,8 @@ install! 'cocoapods'
 use_frameworks!
 platform :ios, '13.0'
 
+ENV['LIBSIGNAL_FFI_PREBUILD_CHECKSUM'] = 'dfed3ac37bf46be567245eeeccbba929688316cbbc2bbdc7b15ef03be894fde4'
+
 target 'ChatSdk_Example' do
   pod 'ChatSdk', git: 'https://github.com/numanayhan/ChatSdk.git', branch: 'main'
 
@@ -19,7 +21,7 @@ post_install do |installer|
       config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '13.0'
       config.build_settings['SWIFT_VERSION'] = '5.5'
       config.build_settings['DEBUG_INFORMATION_FORMAT'] = 'dwarf-with-dsym'
-        config.build_settings['ONLY_ACTIVE_ARCH'] = 'YES'
+      config.build_settings['ONLY_ACTIVE_ARCH'] = 'YES'
     end
   end
 end
